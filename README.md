@@ -5,7 +5,7 @@ This project is built using Django, Django rest framework, Travis ci, Docker and
 
 ------------------------------------------------------------------
 
-To test the project:
+## To test the project in your local host using provided unit tests:
  1. clone the project to your local pc.
   2.  run from cmd ->   docker-compose  build    and wait unit it completes building the image
   3. run ->  docker-compose run --rm app sh -c "python manage.py makemigrations"
